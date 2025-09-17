@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mkomko13.github.io/vite-trips-gallery",
+  "homepage": "https://mkomko13.github.io/vite-trips-gallery/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
