@@ -9,7 +9,7 @@ function GalleryCard(props) {
         {props.isQty && (
           <span className="trip-badge__item">{props.quantity}
             <span className="trip-badge__item-icon"
-              style={{backgroundImage: `url('./src/assets/people.jpg')`,}}></span>
+              style={{backgroundImage: `url('./people.svg')`,}}></span>
           </span>)}
       </div>
       <img src={props.img} alt={props.link} />
