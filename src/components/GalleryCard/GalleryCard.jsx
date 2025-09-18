@@ -1,5 +1,5 @@
 import Heading from '../Heading/Heading';
-// import peopleImg from '../../assets/icons/people.svg'
+import peopleSvg from '../../assets/icons/people.svg'
 
 function GalleryCard(props) {
   return (
@@ -9,7 +9,7 @@ function GalleryCard(props) {
         {props.isQty && (
           <span className="trip-badge__item">{props.quantity}
             <span className="trip-badge__item-icon"
-              style={{backgroundImage: `url('./people.svg')`,}}></span>
+              style={{backgroundImage: `url(${peopleSvg})`,}}></span>
           </span>)}
       </div>
       <img src={props.img} alt={props.link} />
